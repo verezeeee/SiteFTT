@@ -11,7 +11,7 @@
     <link rel="icon" type="img/png" href="icone.png">
 </head>
 <header>
-        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary navigationbar p-3" data-bs-theme="dark">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">FTT</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,20 +20,29 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Início</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#">Início</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#"></a>
+                    <a class="nav-link text-white" href="#sobre">Sobre</a>
                   </li>
                   <li class="nav-item dropdown dropdown-center">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown link
+                    <a class="nav-link dropdown-toggle text-white" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Portfólio
                     </a>
                     <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Little Snake</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Portfólio Pessoal Matheus</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Portfólio Pessoal Babidi</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Pokedex</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Pokedex</a></li>
+                      <li><a class="dropdown-item text-white" href="#">Yoshi Jump</a></li>
                     </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#projetos">Projetos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="#contato">Contato</a>
                   </li>
                 </ul>
               </div>
@@ -41,7 +50,14 @@
           </nav>
 </header>
 <body>
-    <h1>Site FTT</h1>
-    
+    <section id="inicio" class="row m-1 p-1">
+        <div >
+            <h2 class="text-black text-shadow">Fábrica de Tecnologias Turing</h2>
+            <span id="subtitle" class="text-black text-shadow">Projeto da UniEvangélica voltado para o desenvolvimento de softwares.</span>
+            
+        </div>
+        <img class="" id='logoftt'src="../static/imgs/technology.png">
+    </section>
+    <script src="../static/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 </html>
