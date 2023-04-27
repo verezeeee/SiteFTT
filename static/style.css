@@ -154,12 +154,12 @@ p#textoftt {
 }
 
 .carousel-control-prev {
-    margin-left: -8rem;
+    margin-left: -10rem;
     
 }
 
 .carousel-control-next {
-    margin-right: -8rem;
+    margin-right: -10rem;
 }
 
 .carousel-indicators {
@@ -196,10 +196,10 @@ p#textoftt {
 
 @media (max-width: 1860px) {
     .carousel-control-next {
-        display: 0;
+        display: none;
     }
     .carousel-control-prev {
-        display: 0;
+        display: none;
     }
     
 }
