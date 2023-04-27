@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+* {
+    overflow-x: hidden;
+}
+
 body {
     font-family: Ubuntu, Arial;
     width: 100%;
@@ -13,7 +17,7 @@ header {
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 h2 {
     color: #000000;
@@ -74,13 +78,13 @@ img.card-img-top-1 {
         width: 320px;
         height: 170px;
     }
-    
+
 }
 
 .container-1 {
     background-color: #d4d4d4;
     box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
-  }
+}
 
 div.card.p-5.shadow.border-2 {
     box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
@@ -155,7 +159,7 @@ p#textoftt {
 
 .carousel-control-prev {
     margin-left: -10rem;
-    
+
 }
 
 .carousel-control-next {
@@ -198,13 +202,14 @@ p#textoftt {
     .carousel-control-next {
         display: none;
     }
+
     .carousel-control-prev {
         display: none;
     }
-    
+
 }
 
-#footer{
+#footer {
     padding: 23px;
     color: #fff;
     font-size: 15px;
@@ -214,4 +219,8 @@ p#textoftt {
     z-index: 100;
 }
 
-
+img#logoftt {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
